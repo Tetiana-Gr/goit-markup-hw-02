@@ -1,0 +1,45 @@
+/* цвет фона #E5E5E5 */
+/*!!!!!!!устанавливаю основной шрифт и фон сайта*/
+.body {
+  background-color: #e5e5e5;
+  color: #757575;
+}
+/*  вторичный цвет фона #F5F4FA */
+/* цвет шапки #FFFFFF */
+/* цвет героя и футера #2F303A */
+/* !!!!!!!убирает маркеры со списка */
+.list {
+  list-style: none;
+}
+/*color: #212121;zagolowki text*/
+/* color: #757575; osnowno text */
+/* color: #FFFFFF; bel text*/
+/* color: #2196F3; akcent text */
+/* !!!!!!!устанавливаю цвет логотипа */
+.logo1 {
+  color: #2196f3;
+}
+.logo2 {
+  color: #212121;
+}
+/*!!!!!!!цвет навигации сайта*/
+.site-nav a {
+  color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+/*!!!!!!устанавливаю цвет текст фон героя*/
+.hero-title {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+/*!!!!!!добавляю цвет заголовков h2 h3 */
+.sektion-title {
+  color: #212121;
+}
+/*!!!!!!добавляю цвет основного текста*/
+p {
+  color: #757575;
+}
