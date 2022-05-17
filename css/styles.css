@@ -1,9 +1,26 @@
+:root {
+  --primary-text-color: #757575;
+  --titel-text-color: #212121;
+  --akcent-color: #2196f3;
+  --heroy-text-color: #ffffff;
+}
+
 /* цвет фона #E5E5E5 */
 /*!!!!!!!устанавливаю основной шрифт и фон сайта*/
 .body {
   background-color: #e5e5e5;
-  color: #757575;
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
 }
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto; */
+
 /*  вторичный цвет фона #F5F4FA */
 /* цвет шапки #FFFFFF */
 /* цвет героя и футера #2F303A */
@@ -17,29 +34,70 @@
 /* color: #2196F3; akcent text */
 /* !!!!!!!устанавливаю цвет логотипа */
 .logo1 {
-  color: #2196f3;
+  color: var(--akcent-color);
 }
 .logo2 {
-  color: #212121;
+  color: var(--titel-text-color);
 }
 /*!!!!!!!цвет навигации сайта*/
 .site-nav a {
-  color: #212121;
+  color: var(--titel-text-color);
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--akcent-color);
 }
+/* .auth-nav-list {
+  color: red;
+} */
 /*!!!!!!устанавливаю цвет текст фон героя*/
 .hero-title {
   background-color: #2f303a;
-  color: #ffffff;
+  color: var(--heroy-text-color);
+}
+/*.hero-title-btn {
+  background-color: #2196f3;
+  color: var(--heroy-text-color);
+}*/
+.button {
+  color: var(--heroy-text-color);
+  background-color: var(--akcent-color);
 }
 /*!!!!!!добавляю цвет заголовков h2 h3 */
 .sektion-title {
-  color: #212121;
+  color: var(--titel-text-color);
 }
+/*секция чем мы занимаемся*/
+.work-list .title {
+  color: var(--titel-text-color);
+}
+
 /*!!!!!!добавляю цвет основного текста*/
 p {
-  color: #757575;
+  color: var(--primary-text-color);
+}
+/*!!!!!!добавляю цвет галлерея фото в Портфолио*/
+.aside .aside-title {
+  color: var(--titel-text-color);
+}
+/*.aside .aside-title:hover .aside .aside-title:focus .aside .aside-title:active {
+  color: var(--akcent-color);
+}*/
+button {
+  cursor: pointer;
+}
+/*cursor: pointer*/
+/*!!!!!!добавляю цвет галлерея фото в Портфолио*/
+
+.feature-list .title {
+  color: var(--titel-text-color);
+}
+.button-prf {
+  color: var(--titel-text-color);
+  background-color: #f5f4fa;
+}
+.button-prf:hover,
+.button-prf:focus {
+  color: var(--heroy-text-color);
+  background-color: var(--akcent-color);
 }
